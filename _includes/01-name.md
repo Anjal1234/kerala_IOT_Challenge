@@ -16,6 +16,6 @@ Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It 
 **Led**
 **Arduino Uno**
 **Bread Board**
-**Male to male jumper wire(2nos)
+**Male to male jumper wire(2nos)**
 </ul>
 ### Circuit
