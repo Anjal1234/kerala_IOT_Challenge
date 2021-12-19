@@ -11,16 +11,15 @@ A basic Program similar to printing "Hello World" in any programming language. T
 
 Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It has several advantages over the conventional microcontrollers. It comes with a pre-tested software and hardware libraries and has its own integrated development environment (IDE). Also it is less expensive & beginner friendly.
 ## components Required
-<ul>
 
-.680 ohm Resistor(1)
+*680 ohm Resistor*1
 
-.USB cable(1)
+*USB cable*1
 
-. Arduino Uno(1)
+*Arduino Uno*1
 
-. Bread Board(1)
+*Bread Board*1
 
-. Jumper wire(2)
-</ul>
+*Jumper wire*2
+
 ### Circuit
