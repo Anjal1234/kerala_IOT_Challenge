@@ -25,4 +25,4 @@ Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It 
 
 ### Circuit
 
-<img scr=("/storage/emulated/0/DCIM/Camera/IMG_20211218_211907.jpg")>
+<img scr="(/storage/emulated/0/DCIM/Camera/IMG_20211218_211907.jpg)">
