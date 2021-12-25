@@ -54,4 +54,42 @@ Now in this experiment Iam doing traffic light by using three blue leds and usin
 ![IMG_20211225_122715](https://user-images.githubusercontent.com/95326395/147379690-61065f07-bb40-477b-8c8a-1d1d79bfb18a.jpg)
 ### Circuit Diagram
 ![IMG_20211225_124620](https://user-images.githubusercontent.com/95326395/147379760-b2ef0f6b-16f0-43c3-a52a-3398e61dc0c1.jpg)
+### Code
+int redled = 10; 
+ int yellowled=7;  
+int greenled=4; 
+
+void setup()
+
+{
+
+pinMode(redled, OUTPUT);
+pinMode(yellowled, OUTPUT);
+pinMode(greenled, OUTPUT); 
+
+}
+
+void loop()
+{
+digitalWrite(greenled, HIGH); delay(5000);
+
+digitalWrite(greenled, LOW); 
+for(int i=0;i<3;i++)
+{
+
+delay(500);
+digitalWrite (yellowled, HIGH);
+delay(500);
+digitalWrite(yellowled, LOW);
+
+}
+ delay(500);
+ digitalWrite(redled, HIGH);
+ delay(5000);
+digitalWrite(redled, LOW);
+
+
+}
+
+### Video
 
