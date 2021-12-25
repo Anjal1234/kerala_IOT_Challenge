@@ -51,4 +51,5 @@ Now in this experiment Iam doing traffic light by using three blue leds and usin
 * USB cable*
 * Resistor (68 ohm)*3
 ### circuit
+![IMG_20211225_122715](https://user-images.githubusercontent.com/95326395/147379690-61065f07-bb40-477b-8c8a-1d1d79bfb18a.jpg)
 
