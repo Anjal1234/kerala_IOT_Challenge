@@ -90,3 +90,14 @@ digitalWrite(redled, LOW);
 
 ### Video
 https://user-images.githubusercontent.com/95326395/147381467-8db1c727-8acf-4fe5-b0ea-8fed423e2381.mp4
+# Experiment 3
+## LED Chasing Effect
+
+We often see billboards composed of colorful LEDs. They are constantly changing
+
+to form various light effects. In this experiment, we compile a program to
+
+simulate LED chasing effect.
+
+The long lead of LED is the positive side; short lead is negative.
+### Circuit
