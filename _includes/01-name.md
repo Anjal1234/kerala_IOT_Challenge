@@ -24,5 +24,10 @@ Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It 
 *Jumper wire*2
 
 ### Circuit
-
-<img src="***C:https://photos.app.goo.gl/yGdSuvedvdiFbj828***"/>
+<html>
+<head>
+<body>
+<img scr="(https://photos.app.goo.gl/yGdSuvedvdiFbj828.jpg)">
+</body>
+</head>
+</html>
