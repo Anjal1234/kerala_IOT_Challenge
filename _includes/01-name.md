@@ -93,3 +93,44 @@ digitalWrite(redled, LOW);
 
 ### Video
 https://user-images.githubusercontent.com/95326395/147381467-8db1c727-8acf-4fe5-b0ea-8fed423e2381.mp4
+# Experiment 3
+## LED Chasing Effect
+
+We often see billboards composed of colorful LEDs. They are constantly changing
+
+to form various light effects. In this experiment, we compile a program to
+
+simulate LED chasing effect.
+
+The long lead of LED is the positive side; short lead is negative.
+### Circuit
+![IMG_20211225_152450](https://user-images.githubusercontent.com/95326395/147382675-e5d17e3f-1994-4906-9b8b-f7a61f5c15f1.jpg)
+### Circuit Diagram
+![IMG_20211225_153348](https://user-images.githubusercontent.com/95326395/147382741-85bad1cb-29c7-4f73-9f97-db14fb8be0f0.jpg)
+### Code
+int BASE = 2;
+int NUM = 6;
+void setup()
+{
+    for (int i = BASE; i < BASE + NUM; i++)
+    {
+pinMode(i,OUTPUT);
+    }
+}
+void loop()
+    {
+    
+for (int i=BASE; i<BASE+NUM; i++)
+    {
+            digitalWrite(i,LOW);
+        delay(200);
+        }
+    for (int i=BASE; i<BASE+NUM;i++)
+    {
+            digitalWrite(i,HIGH);
+             delay(200);
+        }
+ }
+###Video
+
+https://user-images.githubusercontent.com/95326395/147382930-1b378595-211d-4948-8bf1-9ff0ccf72796.mp4
