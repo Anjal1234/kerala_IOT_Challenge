@@ -143,3 +143,4 @@ https://user-images.githubusercontent.com/95326395/147382930-1b378595-211d-4948-
 * 68 ohm resistor*1
 * Jumper wire*6
 ### Circuit
+![IMG_20211225_213752](https://user-images.githubusercontent.com/95326395/147389612-7d2f8ee7-d83a-4323-a7dc-a9c76fad6c8c.jpg)
