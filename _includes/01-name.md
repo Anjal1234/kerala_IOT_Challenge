@@ -28,3 +28,15 @@ Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It 
 ![IMG_20211218_211907](https://user-images.githubusercontent.com/95326395/147376651-d3ea9f34-583e-469b-be94-e8de155b5674.jpg)
 ## circuit diagram
 ![IMG_20211225_105824](https://user-images.githubusercontent.com/95326395/147378139-54aff533-9c92-429f-8c0d-39a6723bca18.jpg)
+### Code
+int led1=11;
+void setup()
+{pinMode(11,OUTPUT);
+    }
+void loop()
+{digitalWrite(led1,HIGH);
+    delay(1000);
+    digitalWrite(led1,LOW);
+    delay(1000);
+    }
+## Video
