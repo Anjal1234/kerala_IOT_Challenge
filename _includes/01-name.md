@@ -41,3 +41,14 @@ void loop()
     }
 ## Video
 https://user-images.githubusercontent.com/95326395/147379310-cbbf616d-55dc-478a-a860-4c87b93f3487.mp4
+### Experiment 2
+In the previous Experiment i have done led blinking
+Now in this experiment Iam doing traffic light by using three blue leds and using three 68 ohm resistor and using jumper wires ,one bread board,one USB cable and using Arduino ide application
+### components required
+* Bread board*1
+* Blue led*3
+* Jumper wires*4
+* USB cable*
+* Resistor (68 ohm)*3
+### circuit
+
