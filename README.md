@@ -133,3 +133,13 @@ for (int i=BASE; i<BASE+NUM; i++)
 ###Video
 
 https://user-images.githubusercontent.com/95326395/147382930-1b378595-211d-4948-8bf1-9ff0ccf72796.mp4
+# Experiment 4
+## Button Controlled Led
+### Components Required
+* Button*1
+* Arduino UNO*1
+* LED*1
+* 220 ohm resistor*1
+* 68 ohm resistor*1
+* Jumper wire*6
+### Circuit
