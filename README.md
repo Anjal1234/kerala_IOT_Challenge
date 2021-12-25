@@ -101,3 +101,4 @@ simulate LED chasing effect.
 
 The long lead of LED is the positive side; short lead is negative.
 ### Circuit
+![IMG_20211225_152450](https://user-images.githubusercontent.com/95326395/147382675-e5d17e3f-1994-4906-9b8b-f7a61f5c15f1.jpg)
