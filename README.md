@@ -164,3 +164,11 @@ void loop()
     }
 ### Video
 https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-8f79-8e7762ea9c0c.mp4
+# Experiment 5
+### Buzzer
+### Components Required
+* Arduino UNO*1
+* Buzzer*1
+* Jumper wire*2
+* Resistor (68 ohm)*1
+### Circuit
