@@ -172,3 +172,5 @@ https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-
 * Jumper wire*2
 * Resistor (68 ohm)*1
 ### Circuit
+![IMG_20211226_073229](https://user-images.githubusercontent.com/95326395/147397092-9c16505a-1146-489c-8351-3fc5edd73628.jpg)
+### Circuit Diagram
