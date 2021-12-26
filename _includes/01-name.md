@@ -165,3 +165,26 @@ void loop()
     }
 ### Video
 https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-8f79-8e7762ea9c0c.mp4
+# Experiment 5
+### Buzzer
+### Components Required
+* Arduino UNO*1
+* Buzzer*1
+* Jumper wire*2
+* Resistor (68 ohm)*1
+### Circuit
+![IMG_20211226_073229](https://user-images.githubusercontent.com/95326395/147397092-9c16505a-1146-489c-8351-3fc5edd73628.jpg)
+### Circuit Diagram
+![IMG_20211226_074013](https://user-images.githubusercontent.com/95326395/147397128-c76c50cf-e172-474f-90ea-60c06b2589fb.jpg)
+### Code
+int buzzer=8;
+
+ void setup()
+    {pinMode(buzzer,OUTPUT);
+        }
+    void loop()
+    {digitalWrite(buzzer,HIGH);
+        }
+ 
+### Video
+https://user-images.githubusercontent.com/95326395/147397515-d9c374cf-9f04-4b5d-86c7-bbcaa1044acb.mp4
