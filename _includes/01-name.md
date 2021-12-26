@@ -134,3 +134,34 @@ for (int i=BASE; i<BASE+NUM; i++)
 ### Video
 
 https://user-images.githubusercontent.com/95326395/147382930-1b378595-211d-4948-8bf1-9ff0ccf72796.mp4
+# Experiment 4
+## Button Controlled Led
+### Components Required
+* Button*1
+* Arduino UNO*1
+* LED*1
+* 220 ohm resistor*1
+* 68 ohm resistor*1
+* Jumper wire*6
+### Circuit
+![IMG_20211225_213752](https://user-images.githubusercontent.com/95326395/147389612-7d2f8ee7-d83a-4323-a7dc-a9c76fad6c8c.jpg)
+### Circuit Diagram
+![IMG_20211225_221736](https://user-images.githubusercontent.com/95326395/147389698-f4dd1347-a56f-49d5-be9f-c033ef71356e.jpg)
+### Code
+int ledpin=11;
+int inpin=7;
+int val;
+void setup()
+{
+    pinMode(ledpin,OUTPUT);
+    pinMode(inpin,INPUT);
+    }
+void loop()
+{val=digitalRead(inpin);
+    if(val==LOW)
+    {digitalWrite(ledpin,LOW);}
+    else
+    {digitalWrite(ledpin,HIGH);}
+    }
+### Video
+https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-8f79-8e7762ea9c0c.mp4
