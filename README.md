@@ -1,3 +1,4 @@
+# LEVEL 1
 # Kerala_IOT_Challenge 
 Fox lab Makerspace in association with GTech Group of Technology companies in Kerala is launching our prestigious program "Kerala IoT challenge 2021", with a vision to mould 100 IoT experts in Kerala, hosting on the uLearn platform. Kerala IoT Challenge is a program designed in 4 levels followed by a hackathon to identify and train quality Industry leads in the IoT domain,while any novice learner can start with layer1 and others can enter laterally to the designed layer after an evaluation
 
@@ -102,6 +103,13 @@ to form various light effects. In this experiment, we compile a program to
 simulate LED chasing effect.
 
 The long lead of LED is the positive side; short lead is negative.
+## Components Required
+* Blue led*6
+* Resistor*6
+  (68 ohm *5,220 Ohm*1)
+* Jumper Wires*7
+* Arduino*1
+
 ### Circuit
 ![IMG_20211225_152450](https://user-images.githubusercontent.com/95326395/147382675-e5d17e3f-1994-4906-9b8b-f7a61f5c15f1.jpg)
 ### Circuit Diagram
