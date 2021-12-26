@@ -146,3 +146,20 @@ https://user-images.githubusercontent.com/95326395/147382930-1b378595-211d-4948-
 ![IMG_20211225_213752](https://user-images.githubusercontent.com/95326395/147389612-7d2f8ee7-d83a-4323-a7dc-a9c76fad6c8c.jpg)
 ### Circuit Diagram
 ![IMG_20211225_221736](https://user-images.githubusercontent.com/95326395/147389698-f4dd1347-a56f-49d5-be9f-c033ef71356e.jpg)
+### Code
+int ledpin=11;
+int inpin=7;
+int val;
+void setup()
+{
+    pinMode(ledpin,OUTPUT);
+    pinMode(inpin,INPUT);
+    }
+void loop()
+{val=digitalRead(inpin);
+    if(val==LOW)
+    {digitalWrite(ledpin,LOW);}
+    else
+    {digitalWrite(ledpin,HIGH);}
+    }
+### Video
