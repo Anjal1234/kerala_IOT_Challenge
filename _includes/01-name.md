@@ -22,30 +22,6 @@ Arduino Uno is an open-source microcontroller board developed by Arduino.cc. It 
 * Bread Board*1
 
 * Jumper wire*2
-# Experiment 5
-### Buzzer
-### Components Required
-* Arduino UNO*1
-* Buzzer*1
-* Jumper wire*2
-* Resistor (68 ohm)*1
-### Circuit
-![IMG_20211226_073229](https://user-images.githubusercontent.com/95326395/147397092-9c16505a-1146-489c-8351-3fc5edd73628.jpg)
-### Circuit Diagram
-![IMG_20211226_074013](https://user-images.githubusercontent.com/95326395/147397128-c76c50cf-e172-474f-90ea-60c06b2589fb.jpg)
-### Code
-int buzzer=8;
-
- void setup()
-    {pinMode(buzzer,OUTPUT);
-        }
-    void loop()
-    {digitalWrite(buzzer,HIGH);
-        }
- 
-### Video
-https://user-images.githubusercontent.com/95326395/147397515-d9c374cf-9f04-4b5d-86c7-bbcaa1044acb.mp4
-
 ### Circuit
 
 ![IMG_20211218_211907](https://user-images.githubusercontent.com/95326395/147376651-d3ea9f34-583e-469b-be94-e8de155b5674.jpg)
