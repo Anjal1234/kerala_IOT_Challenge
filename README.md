@@ -176,3 +176,13 @@ https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-
 ### Circuit Diagram
 ![IMG_20211226_074013](https://user-images.githubusercontent.com/95326395/147397128-c76c50cf-e172-474f-90ea-60c06b2589fb.jpg)
 ### Code
+int buzzer=8;
+
+ void setup()
+    {pinMode(buzzer,OUTPUT);
+        }
+    void loop()
+    {digitalWrite(buzzer,HIGH);
+        }
+ 
+### Video
