@@ -174,3 +174,5 @@ https://user-images.githubusercontent.com/95326395/147396223-237d81f7-fdeb-44c1-
 ### Circuit
 ![IMG_20211226_073229](https://user-images.githubusercontent.com/95326395/147397092-9c16505a-1146-489c-8351-3fc5edd73628.jpg)
 ### Circuit Diagram
+![IMG_20211226_074013](https://user-images.githubusercontent.com/95326395/147397128-c76c50cf-e172-474f-90ea-60c06b2589fb.jpg)
+### Code
