@@ -195,3 +195,14 @@ int buzzer=8;
  
 ### Video
 https://user-images.githubusercontent.com/95326395/147397515-d9c374cf-9f04-4b5d-86c7-bbcaa1044acb.mp4
+#Experiment no:7
+LDR interfacing with Aurdino
+##Components Required
+* Arduino UNO*1
+* USB cable*1
+* Bread board*1
+* LDR*1
+* LED*1
+* Jumper Wires*5
+### Circuit Diagram
+
