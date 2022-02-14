@@ -196,4 +196,267 @@ int buzzer=8;
 ### Video
 https://user-images.githubusercontent.com/95326395/147397515-d9c374cf-9f04-4b5d-86c7-bbcaa1044acb.mp4
 
+ # EXPERIMENT NO 7
+ LDR LIGHT SENSOR
+ ## COMPONENTS REQUIRED
+ * ARDUINO UNO BOARD*1
+ * PHOTO RESISTOR*1
+ * RED M5 LED*1
+ * 10 K OHM RESISTOR*1
+ * 220 OHM RESISTOR *1
+ * BREAD BOARD*1
+ * JUMPER WIRES* SEVERAL
+ * USB CABLE*1
+ ## CIRCUIT
+ 
+ ## CIRCUIT DIAGRAM
+ ### CODE 
+ # Experiment no:7
+LDR interfacing with Aurdino
+## Components Required
+* Arduino UNO*1
+* USB cable*1
+* Bread board*1
+* LDR*1
+* LED*1
+* Jumper Wires*5
+### Circuit Diagram
+### CODE
 
+
+# Experiment no:8
+ # Flame sensor interfacing with Aurdino
+## Components Required
+* Bread board*1
+* Arduino ide
+* Arduino UNO*1
+* Flame sensor*1
+* Buzzer*1
+* Jumper Wires*5
+ ## CIRCUIT DIAGRAM
+ ![f7b74991-f4db-42ef-a73a-1e15f64f537d](https://user-images.githubusercontent.com/95326395/153834929-cdf97382-3b20-4b94-8249-7d796ab00a86.jpg)
+
+## Circuit 
+![WhatsApp Image 2022-02-14 at 1 45 55 PM (1)](https://user-images.githubusercontent.com/95326395/153827688-86c5f432-66fd-4da2-b00b-8386ec9806be.jpeg) 
+### code
+
+int flame=0;// select analog pin 0 for the sensor
+int Beep=9;// select digital pin 9 for the buzzer
+int val=0;// initialize variable
+ void setup() 
+{
+  pinMode(Beep,OUTPUT);// set LED pin as “output”
+ pinMode(flame,INPUT);// set buzzer pin as “input”
+ Serial.begin(9600);// set baud rate at “9600”
+ } 
+void loop() 
+{ 
+  val=analogRead(flame);// read the analog value of the sensor 
+  Serial.println(val);// output and display the analog value
+  if(val>=600)// when the analog value is larger than 600, the buzzer will buzz
+  {  
+   digitalWrite(Beep,HIGH); 
+   }else 
+   {  
+     digitalWrite(Beep,LOW); 
+    }
+   delay(500); 
+}
+### video
+https://user-images.githubusercontent.com/95326395/153830039-bdfc557a-ae4d-401f-b200-bfdf4dd819a0.mp4
+
+# EXPERIMENT NO 11
+## POTENTIOMETER ANALOG VALUE
+## COMPONENTS REQUIRED
+* ARDUINO UNO*1
+* 10K POTENTIO METER*1
+* BREAD BOARD *1
+* JUMPER WIRE *3
+* USB CABLE*1
+## CIRCUIT DIAGRAM
+![ee9a67c8-5933-4c79-b65e-5c51783b6f21](https://user-images.githubusercontent.com/95326395/153834891-13436a43-6923-4570-92c2-0f0d5b45a186.jpg)
+
+
+## CODE 
+int potpin=0;// initialize analog pin 0
+int ledpin=13;// initialize digital pin 13
+int val=0;// define val, assign initial value 0
+void setup()
+{
+pinMode(ledpin,OUTPUT);// set digital pin as “output”
+Serial.begin(9600);// set baud rate at 9600
+}
+void loop()
+{
+digitalWrite(ledpin,HIGH);// turn on the LED on pin 13
+delay(50);// wait for 0.05 second
+digitalWrite(ledpin,LOW);// turn off the LED on pin 13
+delay(50);// wait for 0.05 second
+val=analogRead(potpin);// read the analog value of analog pin 0, and assign it to val 
+Serial.println(val);// display val’s value
+}
+
+### CIRCUIT
+![WhatsApp Image 2022-02-14 at 1 45 54 PM](https://user-images.githubusercontent.com/95326395/153831399-76b1618a-355d-4d47-a961-93529cf4af14.jpeg)
+### VIDEO
+https://user-images.githubusercontent.com/95326395/153831567-3df9b144-3845-4678-a171-21ebe5e428ec.mp4
+
+# EXPERIMENT NO 12
+## 7 SEGMENT DISPLAY
+## COMPONENTS REQUIRED
+* ARDUINO UNO BOARD*1
+* 1-DIGIT LED SEGMENT DISPLAY*1
+* 220 OHM RESISTOT
+* BREAD BOARD*1
+* JUMPER*SEVERAL
+* USB CABLE*1
+## CIRCUIT DIAGRAM
+![138b5870-8ee8-4c28-b94c-58640891708e](https://user-images.githubusercontent.com/95326395/153834832-3542c4c9-1293-407e-a85a-bef6100440d6.jpg)
+
+## CODE
+int a=7;// set digital pin 7 for segment a
+int b=6;// set digital pin 6 for segment b
+int c=5;// set digital pin 5 for segment c
+int d=10;// set digital pin 10 for segment d
+int e=11;// set digital pin 11 for segment e
+int f=8;// set digital pin 8 for segment f
+int g=9;// set digital pin 9 for segment g
+int dp=4;// set digital pin 4 for segment dp
+void digital_0(void) // display number 5
+{
+unsigned char j;
+digitalWrite(a,HIGH);
+digitalWrite(b,HIGH);
+digitalWrite(c,HIGH);
+digitalWrite(d,HIGH);
+digitalWrite(e,HIGH);
+digitalWrite(f,HIGH);
+digitalWrite(g,LOW);
+digitalWrite(dp,LOW);
+}
+void digital_1(void) // display number 1
+{
+unsigned char j;
+digitalWrite(c,HIGH);// set level as “high” for pin 5, turn on segment c
+digitalWrite(b,HIGH);// turn on segment b
+for(j=7;j<=11;j++)// turn off other segments
+digitalWrite(j,LOW);
+digitalWrite(dp,LOW);// turn off segment dp
+}
+void digital_2(void) // display number 2
+{
+unsigned char j;
+digitalWrite(b,HIGH);
+digitalWrite(a,HIGH);
+for(j=9;j<=11;j++)
+digitalWrite(j,HIGH);
+digitalWrite(dp,LOW);
+digitalWrite(c,LOW);
+digitalWrite(f,LOW);
+}
+void digital_3(void) // display number 3
+{digitalWrite(g,HIGH);
+digitalWrite(a,HIGH);
+digitalWrite(b,HIGH);
+digitalWrite(c,HIGH);
+digitalWrite(d,HIGH);
+digitalWrite(dp,LOW);
+digitalWrite(f,LOW);
+digitalWrite(e,LOW);
+}
+void digital_4(void) // display number 4
+{digitalWrite(c,HIGH);
+digitalWrite(b,HIGH);
+digitalWrite(f,HIGH);
+digitalWrite(g,HIGH);
+digitalWrite(dp,LOW);
+digitalWrite(a,LOW);
+digitalWrite(e,LOW);
+digitalWrite(d,LOW);
+}
+void digital_5(void) // display number 5
+{
+unsigned char j;
+digitalWrite(a,HIGH);
+digitalWrite(b, LOW);
+digitalWrite(c,HIGH);
+digitalWrite(d,HIGH);
+digitalWrite(e, LOW);
+digitalWrite(f,HIGH);
+digitalWrite(g,HIGH);
+digitalWrite(dp,LOW);
+}
+void digital_6(void) // display number 6
+{
+unsigned char j;
+for(j=7;j<=11;j++)
+digitalWrite(j,HIGH);
+digitalWrite(c,HIGH);
+digitalWrite(dp,LOW);
+digitalWrite(b,LOW);
+}
+void digital_7(void) // display number 7
+{
+unsigned char j;
+for(j=5;j<=7;j++)
+digitalWrite(j,HIGH);
+digitalWrite(dp,LOW);
+for(j=8;j<=11;j++)
+digitalWrite(j,LOW);
+}
+void digital_8(void) // display number 8
+{
+unsigned char j;
+for(j=5;j<=11;j++)
+digitalWrite(j,HIGH);
+digitalWrite(dp,LOW);
+}
+void digital_9(void) // display number 5
+{
+unsigned char j;
+digitalWrite(a,HIGH);
+digitalWrite(b,HIGH);
+digitalWrite(c,HIGH);
+digitalWrite(d,HIGH);
+digitalWrite(e, LOW);
+digitalWrite(f,HIGH);
+digitalWrite(g,HIGH);
+digitalWrite(dp,LOW);
+}
+void setup()
+{
+int i;// set variable
+for(i=4;i<=11;i++)
+pinMode(i,OUTPUT);// set pin 4-11as “output”
+}
+void loop()
+{
+while(1)
+{
+digital_0();// display number 0
+delay(1000);// wait for 1s
+digital_1();// display number 1
+delay(1000);// wait for 1s
+digital_2();// display number 2
+delay(1000); // wait for 1s
+digital_3();// display number 3
+delay(1000); // wait for 1s
+digital_4();// display number 4
+delay(1000); // wait for 1s
+digital_5();// display number 5
+delay(1000); // wait for 1s
+digital_6();// display number 6
+delay(1000); // wait for 1s
+digital_7();// display number 7
+delay(1000); // wait for 1s
+digital_8();// display number 8
+delay(1000); // wait for 1s
+digital_9();// display number 9
+delay(1000); // wait for 1s
+}}
+### CIRCUIT
+![WhatsApp Image 2022-02-14 at 1 45 54 PM](https://user-images.githubusercontent.com/95326395/153832737-1c226d65-7db9-47cf-8b26-506803c25310.jpeg)
+### VIDEO
+
+
+https://user-images.githubusercontent.com/95326395/153833527-0c8a05cb-a3b1-44c8-9e69-5724f5b409e7.mp4
