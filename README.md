@@ -209,7 +209,7 @@ LDR interfacing with Aurdino
 
 
 # Experiment no:8
-Flame sensor interfacing with Aurdino
+ # Flame sensor interfacing with Aurdino
 ## Components Required
 * Bread board*1
 * Arduino ide
@@ -218,3 +218,29 @@ Flame sensor interfacing with Aurdino
 * Buzzer*1
 * Jumper Wires*5
 ## Circuit Diagram
+![WhatsApp Image 2022-02-14 at 1 45 55 PM (1)](https://user-images.githubusercontent.com/95326395/153827688-86c5f432-66fd-4da2-b00b-8386ec9806be.jpeg) 
+### code
+
+int flame=0;// select analog pin 0 for the sensor
+int Beep=9;// select digital pin 9 for the buzzer
+int val=0;// initialize variable
+ void setup() 
+{
+  pinMode(Beep,OUTPUT);// set LED pin as “output”
+ pinMode(flame,INPUT);// set buzzer pin as “input”
+ Serial.begin(9600);// set baud rate at “9600”
+ } 
+void loop() 
+{ 
+  val=analogRead(flame);// read the analog value of the sensor 
+  Serial.println(val);// output and display the analog value
+  if(val>=600)// when the analog value is larger than 600, the buzzer will buzz
+  {  
+   digitalWrite(Beep,HIGH); 
+   }else 
+   {  
+     digitalWrite(Beep,LOW); 
+    }
+   delay(500); 
+}
+### video
