@@ -207,6 +207,7 @@ LDR interfacing with Aurdino
 * Jumper Wires*5
 ### Circuit Diagram
 
+
 # Experiment no:8
 Flame sensor interfacing with Aurdino
 ## Components Required
