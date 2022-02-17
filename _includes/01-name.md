@@ -259,6 +259,7 @@ https://user-images.githubusercontent.com/95326395/153830039-bdfc557a-ae4d-401f-
 * USB CABLE*1
 ## CIRCUIT DIAGRAM
 
+![062c93a3-c29c-4352-b0bf-a594af793d22](https://user-images.githubusercontent.com/95326395/154444477-c253c541-4a12-4084-bf41-279568b45254.jpg)
 
 
 ## CODE 
