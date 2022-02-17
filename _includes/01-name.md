@@ -258,7 +258,7 @@ https://user-images.githubusercontent.com/95326395/153830039-bdfc557a-ae4d-401f-
 * JUMPER WIRE *3
 * USB CABLE*1
 ## CIRCUIT DIAGRAM
-https://user-images.githubusercontent.com/95326395/154443314-102e6cc6-760d-4486-8346-5815c332ce95.mp4
+
 
 
 ## CODE 
@@ -281,9 +281,10 @@ Serial.println(val);// display val’s value
 }
 
 ### CIRCUIT
-![WhatsApp Image 2022-02-14 at 1 45 54 PM](https://user-images.githubusercontent.com/95326395/153831399-76b1618a-355d-4d47-a961-93529cf4af14.jpeg)
+![86c82790-ccf7-4a4c-94e0-a4aef7c639cc](https://user-images.githubusercontent.com/95326395/154444195-182a43ba-8a08-413a-b27e-4e323508cb4f.jpg)
+
 ### VIDEO
-https://user-images.githubusercontent.com/95326395/153831567-3df9b144-3845-4678-a171-21ebe5e428ec.mp4
+https://user-images.githubusercontent.com/95326395/154443314-102e6cc6-760d-4486-8346-5815c332ce95.mp4
 
 # EXPERIMENT NO 12
 ## 7 SEGMENT DISPLAY
