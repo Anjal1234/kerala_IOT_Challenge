@@ -298,8 +298,9 @@ Serial.println(val);// display val’s value
 
 ### CIRCUIT
 
+![86c82790-ccf7-4a4c-94e0-a4aef7c639cc](https://user-images.githubusercontent.com/95326395/154445072-920716f6-b56e-4736-9171-8a9e6aefbfbf.jpg)
 
-https://user-images.githubusercontent.com/95326395/154443314-102e6cc6-760d-4486-8346-5815c332ce95.mp4
+
 
 
 
