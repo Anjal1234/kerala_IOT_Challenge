@@ -258,7 +258,7 @@ https://user-images.githubusercontent.com/95326395/153830039-bdfc557a-ae4d-401f-
 * JUMPER WIRE *3
 * USB CABLE*1
 ## CIRCUIT DIAGRAM
-![ee9a67c8-5933-4c79-b65e-5c51783b6f21](https://user-images.githubusercontent.com/95326395/153834891-13436a43-6923-4570-92c2-0f0d5b45a186.jpg)
+https://user-images.githubusercontent.com/95326395/154443314-102e6cc6-760d-4486-8346-5815c332ce95.mp4
 
 
 ## CODE 
