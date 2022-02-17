@@ -297,9 +297,16 @@ Serial.println(val);// display val’s value
 }
 
 ### CIRCUIT
-![WhatsApp Image 2022-02-14 at 1 45 54 PM](https://user-images.githubusercontent.com/95326395/153831399-76b1618a-355d-4d47-a961-93529cf4af14.jpeg)
-### VIDEO
-https://user-images.githubusercontent.com/95326395/153831567-3df9b144-3845-4678-a171-21ebe5e428ec.mp4
+
+
+https://user-images.githubusercontent.com/95326395/154443314-102e6cc6-760d-4486-8346-5815c332ce95.mp4
+
+
+
+### video
+https://user-images.githubusercontent.com/95326395/154442592-840f8ccc-b5ab-4f61-85b1-1029e761d58d.mp4
+
+
 
 # EXPERIMENT NO 12
 ## 7 SEGMENT DISPLAY
