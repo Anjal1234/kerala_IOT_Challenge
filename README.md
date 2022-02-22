@@ -196,6 +196,56 @@ int buzzer=8;
 ### Video
 https://user-images.githubusercontent.com/95326395/147397515-d9c374cf-9f04-4b5d-86c7-bbcaa1044acb.mp4
 
+# EXPERIMENT NO 6
+## RGB LED
+### COMPONENTS REQUIRED:
+* ARDUINO UNO*1
+* RGB LED*1
+* USB CABLE*1
+* JUMPER WIRE*4
+* ARDUINO IDLE
+### CIRCUIT
+![WhatsApp Image 2022-02-22 at 10 15 45 AM](https://user-images.githubusercontent.com/95326395/155065624-bf3f22e7-4d4f-4d14-b708-9c222179c255.jpeg)
+### CIRCUIT DIAGRAM
+![WhatsApp Image 2022-02-22 at 10 30 59 AM](https://user-images.githubusercontent.com/95326395/155066169-2122cb74-ccac-493e-8914-c09350106e51.jpeg)
+
+### CODE
+int redpin = 11; //select the pin for the red LED
+int bluepin =10; // select the pin for the blue LED
+int greenpin =9;// select the pin for the green LED
+int val;
+void setup() {
+  pinMode(redpin, OUTPUT);
+  pinMode(bluepin, OUTPUT);
+  pinMode(greenpin, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(val=255; val>0; val--)
+  {
+   analogWrite(11, val);
+   analogWrite(10, 255-val);
+   analogWrite(9, 128-val);
+   delay(1); 
+  }
+for(val=0; val<255; val++)
+  {
+   analogWrite(11, val);
+   analogWrite(10, 255-val);
+   analogWrite(9, 128-val);
+   delay(1); 
+  }
+ Serial.println(val, DEC);
+}
+
+## VIDEO
+
+
+https://user-images.githubusercontent.com/95326395/155065951-65db58a9-4862-4397-ab1f-8303bf5e941a.mp4
+
+
+
  # EXPERIMENT NO 7
  LDR LIGHT SENSOR
  ## COMPONENTS REQUIRED
