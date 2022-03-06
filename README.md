@@ -315,6 +315,15 @@ void loop()
 ### video
 https://user-images.githubusercontent.com/95326395/153830039-bdfc557a-ae4d-401f-b200-bfdf4dd819a0.mp4
 
+# Experiment no:9
+## IR Remote
+## components Required
+ * IR remote sensor *1
+ * LED *6
+ * IR remote*1
+ * Jumper Wires*--
+## Circuit Diagram
+
 # EXPERIMENT NO 11
 ## POTENTIOMETER ANALOG VALUE
 ## COMPONENTS REQUIRED
